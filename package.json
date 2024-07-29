@@ -1,7 +1,7 @@
 {
-  "name": "typescript-npm-package-template",
-  "version": "0.0.0-development",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "name": "hotvox-client",
+  "version": "1.0.0",
+  "description": "Our node client extends openai-node to cultivate rapid development.",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
@@ -19,32 +19,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
+    "url": "git+https://github.com/hotvox/hotvox-client-node.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "name": "Hotvox AI",
+    "email": "admin@hotvox.ai",
+    "url": "https://github.com/hotvox"
   },
   "engines": {
-    "node": ">=12.0"
+    "node": ">=18.0"
   },
   "keywords": [
-    "boilerplate",
-    "template",
-    "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
+    "hotvox"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
+    "url": "https://github.com/hotvox/hotvox-client-node/issues"
   },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/hotvox/hotvox-client-node#readme",
+  "dependencies": {
+    "openai": "4.53.2",
+    "package.json": "^2.0.1"
+  },
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
